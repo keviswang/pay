@@ -1,0 +1,27 @@
+{
+  "name": "keviswang/pay",
+  "description": "支付扩展包",
+  "keywords": [
+    "wechat",
+    "pay"
+  ],
+  "authors": [
+    {
+      "name": "keviswang",
+      "email": "keviswang@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Keviswang\\Pay\\": "src"
+    }
+  },
+  "license": "MIT"
+}
